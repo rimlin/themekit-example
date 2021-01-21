@@ -1,0 +1,31 @@
+{
+	"entry": {
+		"technokratos": "./themes/technokratos/technokratos.theme.json"
+	},
+	"output": {
+	  "css": {
+		"transforms": ["name/cti/kebab"],
+		"buildPath": "./src/theme",
+		"files": [
+		  {
+			"destination": "color.css",
+			"format": "css/variables",
+			"filter": "whitepaper/color",
+			"options": {
+			  "selector": ".Theme_color_default",
+			  "useAliasVariables": true
+			}
+		  },
+		  {
+			"destination": "root.css",
+			"format": "css/variables",
+			"filter": "whitepaper/root",
+			"options": {
+			  "selector": ".Theme_root_default",
+			  "useAliasVariables": true
+			}
+		  }
+		]
+	  }
+	}
+  }

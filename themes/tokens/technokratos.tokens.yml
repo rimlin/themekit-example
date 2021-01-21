@@ -1,0 +1,22 @@
+textinput:
+  border:
+    width:
+      value: 1px
+button:
+  viewAction:
+    fillColor:
+      base:
+        value: '#C728B3'
+      progress:
+        base:
+          value: '#C728B3'
+        process:
+          value: '#de1258'
+  viewDefault:
+    fillColor:
+      base:
+        value: '#ecb6ea'
+checkbox:
+  viewOutline:
+    borderColor:
+      value: '#d02c2c'

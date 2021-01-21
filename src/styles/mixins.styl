@@ -1,0 +1,28 @@
+@import './colors'
+@import './sizes'
+
+widerthan(var)
+	condition = 'screen and (min-width: %s)' % var
+	@media condition
+		{block}
+
+narrowerthan(var)
+	condition = 'screen and (max-width: %s)' % var
+	@media condition
+		{block}
+
+main-container()
+	min-width 840px
+	max-width s-container-width
+	margin 0 auto
+	background white
+
+	+narrowerthan(s-container-width + 24)
+		padding-left 12px
+		padding-right 12px
+
+title(fs, lh)
+	font-size fs
+	line-height lh
+	font-weight 500
+	color black

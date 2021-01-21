@@ -1,0 +1,448 @@
+.Theme_root_default {
+    --space-3-xs: 2px;
+    --space-2-xs: 4px;
+    --space-xs: 8px;
+    --space-s: 12px;
+    --space-m: 16px;
+    --space-l: 20px;
+    --space-xl: 24px;
+    --space-2-xl: 32px;
+    --space-3-xl: 40px;
+    --space-4-xl: 48px;
+    --space-5-xl: 72px;
+    --space-6-xl: 96px;
+    --typography-font-family: 'YS Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --typography-font-weight-light: 300;
+    --typography-font-weight-regular: 400;
+    --typography-font-weight-medium: 500;
+    --typography-font-weight-bold: 700;
+    --typography-controls-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --typography-controls-size-s-font-size: 13px;
+    --typography-controls-size-m-font-size: 15px;
+    --typography-controls-size-l-font-size: 18px;
+    --attach-font-family: var(--typography-controls-font-family);
+    --attach-reset-width: 12px;
+    --attach-reset-height: 12px;
+    --attach-reset-indent-left: 5px;
+    --attach-icon-file-indent-right: 5px;
+    --attach-size-s-font-size: var(--typography-controls-size-s-font-size);
+    --attach-size-s-line-height: 32px;
+    --attach-size-s-holder-indent-left: 6px;
+    --attach-size-m-font-size: var(--typography-controls-size-m-font-size);
+    --attach-size-m-line-height: 36px;
+    --attach-size-m-holder-indent-left: 8px;
+    --attach-size-l-font-size: var(--typography-controls-size-l-font-size);
+    --attach-size-l-line-height: 42px;
+    --attach-size-l-holder-indent-left: 10px;
+    --badge-font-family: var(--typography-controls-font-family);
+    --badge-size-small: 10px;
+    --badge-size-large: 16px;
+    --badge-font-size: 12px;
+    --badge-border-radius: 8px;
+    --badge-border-width: 2px;
+    --button-font-family: var(--typography-controls-font-family);
+    --button-border-width: 1px;
+    --button-border-radius: 4px; /* Радиус внутреннего блока */
+    --button-size-s-font-size: var(--typography-controls-size-s-font-size); /* Размер текста у s-button */
+    --button-size-s-line-height: 32px; /* Межстрочный интервал текста у s-button */
+    --button-size-s-height: 32px; /* Высота у s-button */
+    --button-size-s-icon-width: 32px; /* Ширина иконки у s-button */
+    --button-size-s-icon-indent-left: 25px; /* Размер внешнего левого отступа текста от иконки у s-button */
+    --button-size-s-icon-indent-right: 25px; /* Размер внешнего правого отступа текста от иконки у s-button */
+    --button-size-s-text-indent-all: 0 13px; /* Размер внешнего отступа у s-button */
+    --button-size-m-font-size: var(--typography-controls-size-m-font-size); /* Размер текста у m-button */
+    --button-size-m-line-height: 36px; /* Межстрочный интервал текста у m-button */
+    --button-size-m-height: 36px; /* Высота у m-button */
+    --button-size-m-icon-width: 36px; /* Ширина иконки у m-button */
+    --button-size-m-icon-indent-left: 29px; /* Размер внешнего левого отступа текста от иконки у m-button */
+    --button-size-m-icon-indent-right: 29px; /* Размер внешнего правого отступа текста от иконки у m-button */
+    --button-size-m-text-indent-all: 0 15px; /* Размер внешнего отступа у m-button */
+    --button-size-l-font-size: var(--typography-controls-size-l-font-size); /* Размер текста у l-button */
+    --button-size-l-line-height: 42px; /* Межстрочный интервал текста у l-button */
+    --button-size-l-height: 42px; /* Высота у l-button */
+    --button-size-l-icon-width: 42px; /* Ширина иконки у l-button */
+    --button-size-l-icon-indent-left: 35px; /* Размер внешнего левого отступа текста от иконки у l-button */
+    --button-size-l-icon-indent-right: 35px; /* Размер внешнего правого отступа текста от иконки у l-button */
+    --button-size-l-text-indent-all: 0 18px; /* Размер внешнего отступа у l-button */
+    --button-group-gap-s: 1px;
+    --button-group-gap-m: 4px;
+    --button-group-gap-l: 6px;
+    --button-group-gap-xl: 8px;
+    --button-group-pin-circle-border-radius: 100px;
+    --button-group-pin-round-border-radius: var(--button-border-radius);
+    --checkbox-view-outline-disabled-opacity: 0.4;
+    --checkbox-font-family: var(--typography-controls-font-family);
+    --checkbox-border-radius: 4px;
+    --checkbox-size-s-font-size: var(--typography-controls-size-s-font-size); /* Размер текста у s-checkbox */
+    --checkbox-size-s-indent-left: 5px; /* Размер внешнего левого отступа у s-checkbox (от текста) */
+    --checkbox-size-s-width: 14px; /* Ширина у s-checkbox */
+    --checkbox-size-s-height: 14px; /* Высота у s-checkbox */
+    --checkbox-size-s-tick-width: 12px;
+    --checkbox-size-s-tick-height: 8px;
+    --checkbox-size-m-font-size: var(--typography-controls-size-m-font-size); /* Размер текста у m-checkbox */
+    --checkbox-size-m-indent-left: 5px; /* Размер внешнего левого отступа у m-checkbox (от текста) */
+    --checkbox-size-m-width: 17px; /* Ширина у m-checkbox */
+    --checkbox-size-m-height: 17px; /* Высота у m-checkbox */
+    --checkbox-size-m-tick-width: 13px;
+    --checkbox-size-m-tick-height: 10px;
+    --checkbox-disabled-opacity: 0.6;
+    --divider-indent-all: 16px;
+    --menu-font-family: var(--typography-controls-font-family);
+    --menu-group-border-width: 1px; /* Бордер у menu-group меню */
+    --menu-size-s-font-size: var(--typography-controls-size-s-font-size); /* Размер текста у s-menu */
+    --menu-size-s-line-height: 32px; /* Межстрочный интервал s-menu у s-menu */
+    --menu-size-s-space-vertical: 4px; /* Размер вертикального внутреннего отступа у s-menu */
+    --menu-size-s-group-space-vertical: 4px; /* Размер вертикального внутреннего отступа от группе у s-menu */
+    --menu-size-s-group-space-horizontal: 0; /* Размер горизонтального внутреннего отступа от группе у s-menu */
+    --menu-size-s-group-indent-bottom: 4px; /* Размер нижнего внешнего отступа от группы до пунктов у s-menu */
+    --menu-size-s-item-space-vertical: 3px; /* Размер вертикального внутреннего отступа в пункте у s-menu */
+    --menu-size-s-item-space-horizontal: 9px; /* Размер горизонтального внутреннего отступа в пункте у s-menu */
+    --menu-size-s-item-indent-bottom: 4px; /* Размер правого внешнего отступа от иконки до текста у s-menu */
+    --menu-size-s-item-icon-indent-right: 4px;
+    --menu-size-s-title-sibling-indent-left: 20px; /* Размер внешнего левого отступа у сущностей после тайтла у s-menu */
+    --menu-size-m-font-size: var(--typography-controls-size-m-font-size); /* Размер текста у m-menu */
+    --menu-size-m-line-height: 36px; /* Межстрочный интервал у m-menu */
+    --menu-size-m-space-vertical: 5px; /* Размер вертикального внутреннего отступа у m-menu */
+    --menu-size-m-group-space-vertical: 5px; /*  Размер вертикального внутреннего отступа в группе у m-menu */
+    --menu-size-m-group-space-horizontal: 0; /* Размер горизонтального внутреннего отступа в группе у m-menu */
+    --menu-size-m-group-indent-bottom: 5px; /* Размер нижнего внешнего отступа от группы до пунктов у m-menu */
+    --menu-size-m-item-space-vertical: 4px; /* Размер вертикального внутреннего отступа в пункте у m-menu */
+    --menu-size-m-item-space-horizontal: 15px; /* Размер горизонтального внутреннего отступа в пункте у m-menu */
+    --menu-size-m-item-indent-bottom: 5px; /* Размер нижнего внешнего отступа от пунктов до группы у m-menu */
+    --menu-size-m-item-icon-indent-right: 6px;
+    --menu-size-m-title-sibling-indent-left: 20px; /* Размер внешнего левого отступа у сущностей после тайтла у m-menu */
+    --message-box-font-size: var(--typography-controls-size-s-font-size);
+    --message-box-font-family: var(--typography-controls-font-family);
+    --message-box-line-height: 16px;
+    --message-box-hint-border-radius: 4px;
+    --message-box-close-line-height: 16px;
+    --message-box-close-font-size: 11px;
+    --message-box-close-indent-right: 7px;
+    --message-box-close-width: 16px;
+    --message-box-close-height: 16px;
+    --message-box-text-indent-left: 20px;
+    --message-box-text-indent-right: 20px;
+    --message-box-content-space-all: 20px;
+    --message-box-content-max-width: 180px;
+    --message-box-size-s-tail-size: 22px; /* Размер хвоста у message-box */
+    --message-box-size-s-tooltip-font-size: 11px;
+    --message-box-size-s-font-size: var(--typography-controls-size-s-font-size);
+    --message-box-size-s-border-radius: 7px;
+    --message-box-size-s-content-max-width: 260px;
+    --message-box-size-s-content-space-all: 5px 10px;
+    --message-box-size-s-content-functional-width: 180px;
+    --message-box-size-m-tail-size: 22px; /* Размер хвоста у message-box */
+    --message-box-size-m-tooltip-font-size: 11px;
+    --message-box-size-m-font-size: var(--typography-controls-size-s-font-size);
+    --message-box-size-m-border-radius: 7px;
+    --message-box-size-m-content-space-all: 10px 14px;
+    --message-box-size-m-content-min-width: 200px;
+    --message-box-size-m-content-max-width: 280px;
+    --message-box-size-m-content-tooltip-max-width: 320px;
+    --message-box-size-m-content-functional-width: 280px;
+    --message-box-size-l-tail-size: 22px; /* Размер хвоста у message-box */
+    --message-box-size-l-functional-font-size: 14px;
+    --message-box-size-l-functional-line-height: 18px;
+    --message-box-size-l-font-size: var(--typography-controls-size-s-font-size);
+    --message-box-size-l-border-radius: 7px;
+    --message-box-size-l-content-space-all: 15px 20px;
+    --message-box-size-l-content-min-width: 300px;
+    --message-box-size-l-content-max-width: 380px;
+    --message-box-size-l-content-width: 380px;
+    --message-box-size-l-content-functional-width: 380px;
+    --message-box-button-indent-right: 0;
+    --message-box-buttons-indent-all: 0;
+    --message-box-view-default-shadow: 0 6px 20px -4px rgba(0, 0, 0, .7);
+    --message-box-view-promo-shadow: 0 6px 20px -4px rgba(0, 0, 0, .7);
+    --message-box-view-inverse-shadow: 0 6px 20px -4px rgba(0, 0, 0, .7);
+    --modal-border-radius: 0;
+    --popup-border-radius: 4px;
+    --progress-height: 2px; /* Высота у progressbar */
+    --progress-border-radius: 0;
+    --radio-button-font-family: var(--typography-controls-font-family);
+    --radio-button-indent: 3px;
+    --radio-button-border-radius: 4px;
+    --radio-button-after-border-radius: 2px;
+    --radio-button-size-s-font-size: var(--typography-controls-size-s-font-size);
+    --radio-button-size-s-line-height: 28px;
+    --radio-button-size-s-space: 0 13px;
+    --radio-button-size-m-font-size: var(--typography-controls-size-m-font-size);
+    --radio-button-size-m-line-height: 32px;
+    --radio-button-size-m-space: 0 15px;
+    --radio-button-size-l-font-size: var(--typography-controls-size-l-font-size);
+    --radio-button-size-l-line-height: 38px;
+    --radio-button-size-l-space: 0 18px;
+    --radiobox-font-family: var(--typography-controls-font-family);
+    --radiobox-view-outline-disabled-opacity: 0.4;
+    --radiobox-border-radius: 50%; /* Скругление внешних краев у radioBox */
+    --radiobox-after-border-radius: 50%; /* Скругление внутренних краев у radioBox */
+    --radiobox-size-s-font-size: var(--typography-controls-size-s-font-size); /* Размер текста у s-radio */
+    --radiobox-size-s-line-height: 28px; /* Межстрочный интервал текста у s-radio */
+    --radiobox-size-s-size: 13px; /* Размер бокса у s-radio */
+    --radiobox-size-s-position-top: 2px; /* Верхний отступ у s-radio */
+    --radiobox-size-s-indent-right: 5px; /* Размер внешнего правого отступа у s-radio (от текста)  */
+    --radiobox-size-s-after-size: 5px;
+    --radiobox-size-m-font-size: var(--typography-controls-size-m-font-size); /* Размер текста у m-radio */
+    --radiobox-size-m-line-height: 32px; /* Межстрочный интервал текста у m-radio */
+    --radiobox-size-m-size: 17px; /* Размер бокса у m-radio */
+    --radiobox-size-m-position-top: 3px; /* Верхний отступ у m-radio */
+    --radiobox-size-m-indent-right: 6px; /* Размер внешнего правого отступа у m-radio (от текста)  */
+    --radiobox-size-m-after-size: 7px;
+    --radiobox-disabled-opacity: 0.6;
+    --slider-font-family: var(--typography-controls-font-family); /* Шрифт слайдера */
+    --slider-view-default-height: 32px; /* Высота слайдера, без учета подписей */
+    --slider-view-default-track-border-radius: 2px; /* Внешний радиус скругления трека */
+    --slider-view-default-track-height: 2px; /* Высота трека */
+    --slider-view-default-thumb-width: 16px; /* Ширина бегунка */
+    --slider-view-default-thumb-height: 16px; /* Высота бегунка */
+    --slider-view-default-thumb-border-radius: 50%; /* Внешний радиус скругления бегунка */
+    --slider-view-default-tick-width: 2px; /* Ширина метки */
+    --slider-view-default-tick-height: 2px; /* Высота метки */
+    --slider-view-default-tick-label-font-size: 13px; /* Размер шрифта подписи метки */
+    --slider-view-default-tick-label-line-height: 16px; /* Высота шрифта подписи метки */
+    --spin-size-xxs-size: 16px;
+    --spin-size-xs-size: 24px;
+    --spin-size-s-size: 28px;
+    --spin-size-m-size: 32px;
+    --spin-size-l-size: 38px;
+    --tabs-menu-font-family: var(--typography-controls-font-family);
+    --tabs-menu-size-s-font-size: var(--typography-controls-size-s-font-size);
+    --tabs-menu-size-s-line-height: 28px;
+    --tabs-menu-size-m-font-size: var(--typography-controls-size-m-font-size);
+    --tabs-menu-size-m-line-height: 36px;
+    --text-display-size-xl-font-size: 3.5rem;
+    --text-display-size-xl-line-height: 4rem;
+    --text-display-size-xl-letter-spacing: normal;
+    --text-display-size-xl-font-family: var(--typography-font-family);
+    --text-display-size-l-font-size: 3rem;
+    --text-display-size-l-line-height: 3.5rem;
+    --text-display-size-l-letter-spacing: 0.0065em;
+    --text-display-size-l-font-family: var(--typography-font-family);
+    --text-display-size-m-font-size: 2.5rem;
+    --text-display-size-m-line-height: 3rem;
+    --text-display-size-m-letter-spacing: 0.0065em;
+    --text-display-size-m-font-family: var(--typography-font-family);
+    --text-display-size-s-font-size: 2.125rem;
+    --text-display-size-s-line-height: 2.5rem;
+    --text-display-size-s-letter-spacing: 0.0065em;
+    --text-display-size-s-font-family: var(--typography-font-family);
+    --text-headline-size-xl-font-size: 2rem;
+    --text-headline-size-xl-line-height: 2.5rem;
+    --text-headline-size-xl-letter-spacing: 0.0065em;
+    --text-headline-size-xl-font-family: var(--typography-font-family);
+    --text-headline-size-l-font-size: 1.75rem;
+    --text-headline-size-l-line-height: 2.25rem;
+    --text-headline-size-l-letter-spacing: 0.0065em;
+    --text-headline-size-l-font-family: var(--typography-font-family);
+    --text-headline-size-m-font-size: 1.5rem;
+    --text-headline-size-m-line-height: 1.875rem;
+    --text-headline-size-m-letter-spacing: 0.0065em;
+    --text-headline-size-m-font-family: var(--typography-font-family);
+    --text-headline-size-s-font-size: 1.25rem;
+    --text-headline-size-s-line-height: 1.5rem;
+    --text-headline-size-s-letter-spacing: 0.0065em;
+    --text-headline-size-s-font-family: var(--typography-font-family);
+    --text-headline-size-xs-font-size: 1.125rem;
+    --text-headline-size-xs-line-height: 1.5rem;
+    --text-headline-size-xs-letter-spacing: 0.0065em;
+    --text-headline-size-xs-font-family: var(--typography-font-family);
+    --text-subheader-size-xl-font-size: 1rem;
+    --text-subheader-size-xl-line-height: 1.25rem;
+    --text-subheader-size-xl-letter-spacing: 0.0065em;
+    --text-subheader-size-xl-font-family: var(--typography-font-family);
+    --text-subheader-size-l-font-size: 0.9375rem;
+    --text-subheader-size-l-line-height: 1.125rem;
+    --text-subheader-size-l-letter-spacing: 0.0065em;
+    --text-subheader-size-l-font-family: var(--typography-font-family);
+    --text-subheader-size-m-font-size: 0.875rem;
+    --text-subheader-size-m-line-height: 1.125rem;
+    --text-subheader-size-m-letter-spacing: 0.0065em;
+    --text-subheader-size-m-font-family: var(--typography-font-family);
+    --text-subheader-size-s-font-size: 0.8125rem;
+    --text-subheader-size-s-line-height: 1.125rem;
+    --text-subheader-size-s-letter-spacing: 0.0065em;
+    --text-subheader-size-s-font-family: var(--typography-font-family);
+    --text-body-long-size-xl-font-size: 1rem;
+    --text-body-long-size-xl-line-height: 1.5rem;
+    --text-body-long-size-xl-letter-spacing: 0.0065em;
+    --text-body-long-size-xl-font-family: var(--typography-font-family);
+    --text-body-long-size-l-font-size: 0.9375rem;
+    --text-body-long-size-l-line-height: 1.25rem;
+    --text-body-long-size-l-letter-spacing: 0.0065em;
+    --text-body-long-size-l-font-family: var(--typography-font-family);
+    --text-body-long-size-m-font-size: 0.875rem;
+    --text-body-long-size-m-line-height: 1.25rem;
+    --text-body-long-size-m-letter-spacing: 0.0065em;
+    --text-body-long-size-m-font-family: var(--typography-font-family);
+    --text-body-long-size-s-font-size: 0.8125rem;
+    --text-body-long-size-s-line-height: 1.125rem;
+    --text-body-long-size-s-letter-spacing: 0.0065em;
+    --text-body-long-size-s-font-family: var(--typography-font-family);
+    --text-body-short-size-xl-font-size: 1rem;
+    --text-body-short-size-xl-line-height: 1.25rem;
+    --text-body-short-size-xl-letter-spacing: 0.0065em;
+    --text-body-short-size-xl-font-family: var(--typography-font-family);
+    --text-body-short-size-l-font-size: 0.9375rem;
+    --text-body-short-size-l-line-height: 1.125rem;
+    --text-body-short-size-l-letter-spacing: 0.0065em;
+    --text-body-short-size-l-font-family: var(--typography-font-family);
+    --text-body-short-size-m-font-size: 0.875rem;
+    --text-body-short-size-m-line-height: 1.125rem;
+    --text-body-short-size-m-letter-spacing: 0.0065em;
+    --text-body-short-size-m-font-family: var(--typography-font-family);
+    --text-body-short-size-s-font-size: 0.8125rem;
+    --text-body-short-size-s-line-height: 1rem;
+    --text-body-short-size-s-letter-spacing: 0.0065em;
+    --text-body-short-size-s-font-family: var(--typography-font-family);
+    --text-caption-size-xl-font-size: 0.8125rem;
+    --text-caption-size-xl-line-height: 1rem;
+    --text-caption-size-xl-letter-spacing: 0.0065em;
+    --text-caption-size-xl-font-family: var(--typography-font-family);
+    --text-caption-size-l-font-size: 0.75rem;
+    --text-caption-size-l-line-height: 1rem;
+    --text-caption-size-l-letter-spacing: 0.0065em;
+    --text-caption-size-l-font-family: var(--typography-font-family);
+    --text-caption-size-m-font-size: 0.6875rem;
+    --text-caption-size-m-line-height: 1rem;
+    --text-caption-size-m-letter-spacing: 0.0065em;
+    --text-caption-size-m-font-family: var(--typography-font-family);
+    --text-overline-size-l-font-size: 0.75rem;
+    --text-overline-size-l-line-height: 0.875rem;
+    --text-overline-size-l-letter-spacing: 0.0065em;
+    --text-overline-size-l-font-family: var(--typography-font-family);
+    --text-overline-size-m-font-size: 0.6875rem;
+    --text-overline-size-m-line-height: 0.875rem;
+    --text-overline-size-m-letter-spacing: 0.0065em;
+    --text-overline-size-m-font-family: var(--typography-font-family);
+    --text-overline-size-s-font-size: 0.625rem;
+    --text-overline-size-s-line-height: 0.75rem;
+    --text-overline-size-s-letter-spacing: 0.0065em;
+    --text-overline-size-s-font-family: var(--typography-font-family);
+    --text-control-size-xxl-font-size: 1.125rem;
+    --text-control-size-xxl-line-height: 1.5rem;
+    --text-control-size-xxl-letter-spacing: 0.0065em;
+    --text-control-size-xxl-font-family: var(--typography-font-family);
+    --text-control-size-xl-font-size: 1rem;
+    --text-control-size-xl-line-height: 1.25rem;
+    --text-control-size-xl-letter-spacing: 0.0065em;
+    --text-control-size-xl-font-family: var(--typography-font-family);
+    --text-control-size-l-font-size: 0.9375rem;
+    --text-control-size-l-line-height: 1.25rem;
+    --text-control-size-l-letter-spacing: 0.0065em;
+    --text-control-size-l-font-family: var(--typography-font-family);
+    --text-control-size-m-font-size: 0.875rem;
+    --text-control-size-m-line-height: 1rem;
+    --text-control-size-m-letter-spacing: 0.0065em;
+    --text-control-size-m-font-family: var(--typography-font-family);
+    --text-control-size-s-font-size: 0.8125rem;
+    --text-control-size-s-line-height: 1rem;
+    --text-control-size-s-letter-spacing: 0.0065em;
+    --text-control-size-s-font-family: var(--typography-font-family);
+    --text-control-size-xs-font-size: 0.75rem;
+    --text-control-size-xs-line-height: 1rem;
+    --text-control-size-xs-letter-spacing: 0.0065em;
+    --text-control-size-xs-font-family: var(--typography-font-family);
+    --text-control-size-xxs-font-size: 0.6875rem;
+    --text-control-size-xxs-line-height: 1rem;
+    --text-control-size-xxs-letter-spacing: 0.0065em;
+    --text-control-size-xxs-font-family: var(--typography-font-family);
+    --textarea-font-family: var(--typography-controls-font-family);
+    --textarea-border-width: 2px;
+    --textarea-border-radius: 4px; /* Ширина бордера у textarea */
+    --textarea-size-s-font-size: var(--typography-controls-size-s-font-size); /* Размер текста у s-textarea */
+    --textarea-size-s-space-all: 6px; /* Внутренние отступы у s-textarea  */
+    --textarea-size-s-min-width: 180px; /* Размер минимальной ширины у s-textarea */
+    --textarea-size-s-min-height: 32px; /* Размер минимальной высоты у s-textarea */
+    --textarea-size-s-clear-width: 32px; /* Ширина очищающего контрола у s-textarea */
+    --textarea-size-s-clear-height: 32px; /* Высота очищающего контрола у s-textarea */
+    --textarea-size-s-hint-font-size: 12px;
+    --textarea-size-m-font-size: var(--typography-controls-size-m-font-size); /* Размер текста у m textarea */
+    --textarea-size-m-space-all: 8px; /* Внутренние отступы m-textarea */
+    --textarea-size-m-min-width: 200px; /* Размер минимальной ширины у m-textarea */
+    --textarea-size-m-min-height: 36px; /* Размер минимальной высоты у m-textarea */
+    --textarea-size-m-clear-width: 36px; /* Ширина очищающего контрола у m-textarea */
+    --textarea-size-m-clear-height: 36px; /* Высота очищающего контрола у m-textarea */
+    --textarea-size-m-hint-font-size: 13px;
+    --textinput-font-family: var(--typography-controls-font-family);
+    --textinput-border-width: 1px;
+    --textinput-border-radius: 4px;
+    --textinput-size-s-font-size: var(--typography-controls-size-s-font-size); /* Размер текста у s-textinput */
+    --textinput-size-s-height: 32px; /* Высота самого s-textinput */
+    --textinput-size-s-space-all: 0 8px; /* Размер внутреннего отступа самого s-textinput  */
+    --textinput-size-s-with-icon-space-right: 32px; /* Размер внутреннего правого отступа под размер иконки или крестика у s-textinput */
+    --textinput-size-s-with-icon-space-left: 32px; /* Размер внутреннего левого отступа под размер иконки или крестика у s-textinput */
+    --textinput-size-s-icon-width: 32px;
+    --textinput-size-s-icon-height: 32px;
+    --textinput-size-s-hint-font-size: 12px;
+    --textinput-size-m-font-size: var(--typography-controls-size-m-font-size); /* Размер текста у m-textinput */
+    --textinput-size-m-height: 36px; /* Высота самого m-textinput */
+    --textinput-size-m-space-all: 0 10px; /* `--textinput-size-m-control-spaceAll` *— Размер внутреннего отступа самого m-textinput* */
+    --textinput-size-m-with-icon-space-right: 36px; /* Размер внутреннего правого отступа под размер иконки или крестика у m-textinput */
+    --textinput-size-m-with-icon-space-left: 36px; /* Размер внутреннего правого отступа правого отступа под размер иконки или крестика у m-textinput */
+    --textinput-size-m-icon-width: 36px;
+    --textinput-size-m-icon-height: 36px;
+    --textinput-size-m-hint-font-size: 13px;
+    --textinput-view-material-font-size: 1rem;
+    --textinput-view-material-space-all: 12px 0 10px;
+    --textinput-view-material-space-left: 16px;
+    --textinput-view-material-space-right: 16px;
+    --textinput-view-material-space-top: 16px;
+    --textinput-view-material-icon-width: 24px;
+    --textinput-view-material-icon-height: 24px;
+    --textinput-view-material-hint-font-size: 0.75rem;
+    --tooltip-font-family: var(--typography-controls-font-family);
+    --tooltip-border-radius: 4px;
+    --tooltip-size-s-font-size: var(--typography-controls-size-s-font-size); /* Размер текста у s-tooltip */
+    --tooltip-size-s-line-height: 12px; /* Межстрочный интервал текста у s-tooltip */
+    --tooltip-size-s-content-space-all: 8px; /* Размер внутренних отступов у контента s-tooltip */
+    --tooltip-size-s-tail-size: 12px; /* Размер хвоста s-tooltip */
+    --tooltip-size-m-font-size: var(--typography-controls-size-m-font-size); /* Размер текста у m-tooltip */
+    --tooltip-size-m-line-height: 14px; /* Межстрочный интервал текста у m-tooltip */
+    --tooltip-size-m-content-space-all: 9px 10px; /* Размер внутренних отступов у контента m-tooltip */
+    --tooltip-size-m-tail-size: 12px; /* Размер хвоста m-tooltip */
+    --tooltip-size-l-font-size: 16px; /* Размер текста у l-tooltip */
+    --tooltip-size-l-line-height: 16px; /* Межстрочный интервал текста у l-tooltip */
+    --tooltip-size-l-content-space-all: 18px; /* Размер внутренних отступов у контента l-tooltip */
+    --tooltip-size-l-tail-size: 18px; /* Размер хвоста l-tooltip */
+    --tooltip-view-default-shadow: 0 10px 20px -5px rgba(0, 0, 0, .4);
+    --tumbler-font-family: var(--typography-controls-font-family);
+    --tumbler-button-space: 2px;
+    --tumbler-button-opacity-disabled: 1;
+    --tumbler-size-s-font-size: var(--typography-controls-size-s-font-size); /* Размер текста s-tumbler */
+    --tumbler-size-s-line-height: 16px; /* Межстрочный интервал текста у s-tumbler */
+    --tumbler-size-s-border-radius: 8px;
+    --tumbler-size-s-width: 32px; /* Ширина s-tumbler */
+    --tumbler-size-s-height: 16px; /* Высота s-tumbler */
+    --tumbler-size-s-button-border-radius: 6px;
+    --tumbler-size-s-button-width: 12px; /* Ширина button m-tumbler */
+    --tumbler-size-s-button-height: 12px; /* Высота button m-tumbler */
+    --tumbler-size-s-button-pressed-width: 14px;
+    --tumbler-size-s-label-indent-right: 8px;
+    --tumbler-size-s-label-indent-left: 8px;
+    --tumbler-size-m-font-size: var(--typography-controls-size-m-font-size); /* Размер текста m-tumbler */
+    --tumbler-size-m-line-height: 20px; /* Межстрочный интервал текста у m-tumbler */
+    --tumbler-size-m-border-radius: 10px;
+    --tumbler-size-m-width: 40px; /* Ширина m-tumbler */
+    --tumbler-size-m-height: 20px; /* Высота m-tumbler */
+    --tumbler-size-m-button-border-radius: 8px;
+    --tumbler-size-m-button-width: 16px; /* Ширина button m-tumbler */
+    --tumbler-size-m-button-height: 16px; /* Высота button m-tumbler */
+    --tumbler-size-m-button-pressed-width: 18px;
+    --tumbler-size-m-label-indent-right: 12px;
+    --tumbler-size-m-label-indent-left: 12px;
+    --tumbler-size-l-font-size: var(--typography-controls-size-l-font-size);
+    --tumbler-size-l-line-height: 24px;
+    --tumbler-size-l-border-radius: 14px;
+    --tumbler-size-l-width: 56px;
+    --tumbler-size-l-height: 28px;
+    --tumbler-size-l-button-border-radius: 12px;
+    --tumbler-size-l-button-width: 24px;
+    --tumbler-size-l-button-height: 24px;
+    --tumbler-size-l-button-pressed-width: 26px;
+    --tumbler-size-l-label-indent-right: 16px;
+    --tumbler-size-l-label-indent-left: 16px;
+    --user-pic-size-m-size: 42px;
+    --user-pic-size-m-size-plus: 52px;
+    --user-pic-size-s-size: 24px;
+    --user-pic-size-s-size-plus: 30px;
+}
